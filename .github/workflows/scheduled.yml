@@ -1,5 +1,8 @@
 name: Daily Script
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # ← add this as a short-term fix
+
 on:
   schedule:
     # ╔═══════════════════════════════════════════════════════════════╗
